@@ -231,7 +231,15 @@ button.send_mail:hover {
    
     box-shadow:inset 0px 5px 20px -5px #00000066;
 }
+.sub_container_4_1 {
+    background: #619326;
+}
 
+.project_holder{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
 a.icon-list {
     margin: 10px 10px 10px 0px;
     padding: 10px 20px;
@@ -242,7 +250,10 @@ a.icon-list {
     cursor: pointer;
     text-transform: uppercase;
     cursor: pointer;
+    display: flex;
     /* border: 4px solid #8bc34a; */
+    justify-content: space-between;
+    align-items: center;
 }
 .sub_container_5 {
     background: #8bc34a;
